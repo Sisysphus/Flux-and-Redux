@@ -33,8 +33,14 @@ An actions type indicates the type if change to be performed on the application'
 An action may contain additional data (the "payload") that's necessary for changing the applications former state to the next one.
 
 <h1 align='center'>
-Actions
+Dispatcher
 </h1>
+
+The dispatcher is a mechanism for distributing(or "dispatching") actions to a Flux application's store.
+
+The dispatcher is a little more than a registry of callback functions into the store.
+
+Redux consolidated the dispatcher into a single dispatch() function.
 
 
 
