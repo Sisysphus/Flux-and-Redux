@@ -42,6 +42,20 @@ The dispatcher is a little more than a registry of callback functions into the s
 
 Redux consolidated the dispatcher into a single dispatch() function.
 
+<h1 align='center'>
+Store
+</h1>
+
+The store represents the entire state of the app.
+
+The store is also responsible for updating the state of the app whenever is recieves an action.
+
+It does so by registering with the dispatcher a callback function that recieves an action.
+
+This callback function uses the actions type to invoke the proper functions to change the apps state.
+
+
+
 
 
 
