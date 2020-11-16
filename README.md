@@ -54,6 +54,22 @@ It does so by registering with the dispatcher a callback function that recieves 
 
 This callback function uses the actions type to invoke the proper functions to change the apps state.
 
+<h1 align='center'>
+View
+</h1>
+
+A view is a unit of code thats responsible for rendering the user interface.
+
+A view listens to change events emitted by the store.
+
+When a change to the app data layer occurs, a view can respond appropraitely.
+
+A view can relate actions itself in user-triggered events.
+
+If a user marks a todo as complete, a view might call a function that would dispatch an action to toggle the todos's state.
+
+Creating an action from the view turns our Flux pattern into a unidirectional loop
+
 
 
 
