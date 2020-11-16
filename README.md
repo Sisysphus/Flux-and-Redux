@@ -22,5 +22,21 @@ Flux provides unidirectional data flow.
 
 Unidirectional data flow affords more predictability than one might encounter when using other applications design patterns.
 
+<h1 align='center'>
+Actions
+</h1>
+
+An action begins the flow of data in Flux. An action is a simple object that at a minimum contains a type.
+
+An actions type indicates the type if change to be performed on the application's state.
+
+An action may contain additional data (the "payload") that's necessary for changing the applications former state to the next one.
+
+<h1 align='center'>
+Actions
+</h1>
+
+
+
 
 
