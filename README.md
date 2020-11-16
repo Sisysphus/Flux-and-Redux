@@ -86,6 +86,8 @@ The three re
 
     * **Only Pure Functions Change State** - Pure functions known as "reducers" receive the previous state and an action and return the next state. They return new state objects instead of mutating previous state.
 
+    Note: middleware is an ecosystem of utilities that arguements the functionality of dispatch(). Among other things, it allows for async requests in a redux application.
+
     
 
 
