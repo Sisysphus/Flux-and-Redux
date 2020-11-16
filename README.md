@@ -80,7 +80,13 @@ A Redux loop behaves slightly differently that a vanilla Flux loop, but the conc
 
 The three re
 
-    * ****
+    * **Single Source of Truth** - The entire state of the application is stored in a single JS object in a single store. THis object is referred to as a "state tree" because it values often contain or are objects themselves.
+
+    * **State is Read-Only** - The only way to change the state is to dispatch an action. This principle ensures that our Redux loop is ensures that our Redux loop is never short-circuited and change of state remains single-threaded.
+
+    * **Only Pure Functions Change State** - Pure functions known as "reducers" receive the previous state and an action and return the next state. They return new state objects instead of mutating previous state.
+
+    
 
 
 
