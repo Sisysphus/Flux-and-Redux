@@ -70,6 +70,20 @@ If a user marks a todo as complete, a view might call a function that would disp
 
 Creating an action from the view turns our Flux pattern into a unidirectional loop
 
+<h1 align='center'>
+Redux
+</h1>
+
+Redux is a library(distributed as an npm package) that facilitates a particular implementation of Flux.
+
+A Redux loop behaves slightly differently that a vanilla Flux loop, but the concept stays the same.
+
+The three re
+
+    * ****
+
+
+
 
 
 
